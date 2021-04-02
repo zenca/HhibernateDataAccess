@@ -12,7 +12,7 @@ public class TestJdbcConn {
 		
 		try {
 			
-			System.out.println("intentando conectar con DB "+ jdbcUrl);
+			System.out.println("Intentando conectar con DB "+ jdbcUrl);
 			Connection miConexion=DriverManager.getConnection(jdbcUrl, usuario, contr);
 			System.out.println("Conexión exitosa");
 			
